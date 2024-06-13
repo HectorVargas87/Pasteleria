@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url("./imagenes/bg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+background-color: rgba(255,255,255,0.8);
+    background-blend-mode: lighten;
+}
+
+.container1 {
+    width: 85%; 
+    max-width: 890px;
+    margin: 0 auto;
+  }
+  /*barra de navegacion*/
+  .header {
+    background-color: #f8f8f8;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    position:fixed ;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+    /*letras de navegacion*/
+  .header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  .logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* logo */
+  .logo1 {
+    letter-spacing: 1px;
+    font-size: 1.0em;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .show > li {
+    position: relative;
+    display: inline-block;
+      position: relative;
+
+  }
+  .show li a:hover{
+    color: rgb(255, 255, 255);
+    transition: all .3s;
+      position: relative;
+  }
+
+/* Letras sin mouse puesto */
+  .show > li > a{
+    display: block;
+    padding: 15px 15px;
+    color: #000000;
+    font-family: 'open sans';
+    text-decoration: none;
+      position: relative;
+  }
+
+  .submenu{
+    position: absolute;
+    background: #5da3ff;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0s;
+  }
+
+  .submenu li a{
+    display: block;
+    padding: 15px;
+    color: aliceblue;
+    font-family: 'open sans';
+    text-decoration: none;
+      position: relative;
+  }
+  .show li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .navigation ul li {
+    display: inline-block;
+      position: relative;
+  }
+  
+  .navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+      position: relative;
+  }
+  
+  .navigation ul li a:hover {
+    background: #295fc4;
+      position: relative;
+  }
+
+.menu-link{
+      color: black;
+  }
+  
+  
+  @media only screen and (max-width: 767px) {
+      .menu-icon{
+          display: block;
+          cursor: pointer;
+      }
+  
+      .navigation{
+          width: 100%;
+      }
+      .navigation ul{
+          display: none;
+      }
+      .navigation ul.show{
+          display: block;
+      }
+        
+      .navigation ul li {
+          display: block;
+        }
+        
+        /* los enlaces dentro del menu */
+        .navigation ul li a {
+          display: block;
+          padding: 0.5rem 1rem;
+          transition: all 0.2s linear;
+          border-radius: 2px;
+        }
+        
+        .navigation ul li a:hover {
+          background: #000000;
+        }
+  }
+
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.registro_btn{
+color: black;
+background-color: #FFC312;
+width: 250px;
+}
+
+.registro_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}

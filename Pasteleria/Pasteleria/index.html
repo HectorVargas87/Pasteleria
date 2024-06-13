@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pastelería de la torre</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a href="#" class="logo"><img src="logo.png" alt="logo"></a>
+            <span class="menu-icon">Ver menú</span>
+        
+            <nav class="navigation">
+                <ul class="show">
+                    <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="InicioSesion.html">Iniciar Sesion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio">
+        <h1>Bienvenido a Pastelería de la torre</h1>
+
+        <!-- Sección 1: Carrusel de imágenes -->
+
+        <div id="carousel-container">
+            <div id="image-carousel">
+                <img class="carousel-image" src="./imagenes/pastel01.jpg" alt="Pastel Chocolate">
+                <img class="carousel-image" src="./imagenes/pastel02.jpg" alt="Cupcake">
+                <img class="carousel-image" src="./imagenes/pastel03.jpg" alt="Tiramisu">
+            </div>
+        </div>
+
+
+<!--
+        <div class="carousel">
+             Puedes agregar imágenes y ajustar el contenido según sea necesario 
+            <img src="./imagenes/pastel01.jpg" alt="Pastel Chocolate">
+            <img src="./imagenes/pastel02.jpg" alt="Cupcake">
+            <img src="./imagenes/pastel03.jpg" alt="Tiramisu">
+        </div>
+-->
+        <!-- Sección 2: Imagen de fondo y promociones -->
+        <div class="promo-section">
+            <h2>Promociones del Mes</h2>
+            <!-- Aquí puedes agregar las fichas de promociones -->
+            <div class="promo-card">
+                <img src="./imagenes/3Lblanco.png" alt="Promoción 1">
+                <h3>3 leches blanco</h3>
+                <p>Descripción de la promoción 1.</p>
+            </div>
+            <div class="promo-card">
+                <img src="./imagenes/3Lcajeta.png" alt="Promoción 2">
+                <h3>3 leches cajeta</h3>
+                <p>Descripción de la promoción 2.</p>
+            </div>
+            <div class="promo-card">
+                <img src="./imagenes/3Lcerezanuez.png" alt="Promoción 3">
+                <h3>3 leches cereza nuez</h3>
+                <p>Descripción de la promoción 3.</p>
+            </div>
+            <div class="promo-card">
+                <img src="./imagenes/3Ldurazno.png" alt="Promoción 4">
+                <h3>3 leches durazno</h3>
+                <p>Descripción de la promoción 4.</p>
+            </div>
+            <div class="promo-card">
+                <img src="./imagenes/3Lrompope.png" alt="Promoción 5">
+                <h3>3 leches rompope</h3>
+                <p>Descripción de la promoción 5.</p>
+            </div>
+            
+            <!-- Repite para otras promociones -->
+        </div>
+
+        <!-- Sección 3: Carrusel de pasteles más vendidos -->
+        <h2 class="title-section">Los mas vendidos</h2>
+        <div class="best-sellers">
+            <!-- Puedes agregar elementos del carrusel con la estructura proporcionada -->
+            <div class="best-seller-item">
+                <img src="./imagenes/Chocolate.png" alt="Pastel 1">
+                <h3>Pastel de Chocolate</h3>
+                <p>Delicioso pastel de chocolate con relleno cremoso.</p>
+                <p>Precio: $299.00</p>
+            </div>
+            <div class="best-seller-item">
+                <img src="./imagenes/Fresa.png" alt="Pastel 1">
+                <h3>Pastel de Fresa</h3>
+                <p>Delicioso pastel de fresa con relleno cremoso.</p>
+                <p>Precio: $259.00</p>
+            </div>
+            <div class="best-seller-item">
+                <img src="./imagenes/Tiramisu.png" alt="Pastel 1">
+                <h3>Pastel de Tiramisu</h3>
+                <p>Delicioso pastel de Tiramisu.</p>
+                <p>Precio: $349.00</p>
+            </div>
+            <!-- Repite para otros pasteles -->
+        </div>
+
+        <!-- Sección 4: Formulario de suscripción -->
+        <!-- Sección 4: Formulario de suscripción -->
+<div class="subscribe">
+    <h2>Suscríbete para recibir noticias y ofertas</h2>
+    <form>
+        <div class="subscribe-input">
+            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+            <button type="submit">Suscribirse</button>
+        </div>
+    </form>
+</div>
+
+    </section>
+
+    <!-- Resto del contenido... -->
+
+    <footer>
+        <p>&copy; 2023 Pastelería de la torre. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
